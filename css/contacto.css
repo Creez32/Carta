@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana;
+    border: yellow solid 2px;
+    padding: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+h1{
+    color:red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+form{
+    
+    
+}
+form p{
+
+}
+form label{
+    font-weight: bold;
+}
+form select{
+    
+}
+form button{
+    border-radius: 8px;
+    width: 300px;
+    height: 30px;
+}
+form button.enviar{
+    background-color: #F0C223;
+    color:white;
+    border-color: #F0C223;
+}
+form button.reset{
+    color:#F0C223;
+    border-color:#F0C223;
+    background-color: white
+}

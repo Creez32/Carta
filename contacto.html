@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <a href="./index.html">Volver al Home</a>
+        
+        <form action="">
+            <p>
+            <label for="Lugares">¿De donde sos?</label>
+            <br>
+            <br>
+            <select name="Lugares" id="">
+                <option value="">Selecciona una opción</option>               
+                <option value="arg">Buenos Aires</option>
+                <option value="cl">Mendoza</option>
+                <option value="mx">Cordoba</option>
+                <option value="br">Misiones</option>
+            </select>
+            </p>
+            <p>
+                <label for="iluminación">¿Que te parecio la iluminación del ambiente?</label>
+                <br>
+                <br>
+                <input type="checkbox" name="iluminación" id="" value="good">Muy acorde
+                <br>
+                <input type="checkbox" name="iluminación" id="" value="meh">Buena, pero podria mejorar
+                <br>
+                <input type="checkbox" name="iluminación" id="" value="bad">Mala
+                <br>
+            </p>
+            <p>
+                <label for="Plato">¿Que plato fue el que mas te gusto?</label>
+                <br>
+                <br>
+                <input type="checkbox" name="Plato" id="" value="Entrada">Entrada
+                <br>
+                <input type="checkbox" name="Plato" id="" value="Principal">Plato principal
+                <br>
+                <input type="checkbox" name="Plato" id="" value="Postre">Postre
+                <br>
+                <input type="checkbox" name="Plato" id="" value="Otro">Otro
+                <br>
+            </p>
+            <p>
+                <label for="Recomendacion">¿Recomendarias el lugar?</label>
+                <br>
+                <br>
+                <input type="radio" name="Recomendacion" id="Yes" value="Si">Si
+                <input type="radio" name="Recomendacion" id="No"value="No">No
+                <br>
+            </p>
+            <p>
+                <label for="">¿Por que?</label>
+                <br>
+                <br>
+                <textarea name="comentario" id="comentario" cols="100" rows="10"></textarea>
+        
+            </p>
+            <p>
+                <label for="">Dejanos tus datos y nos pondremos en contacto con vos</label>
+                <br>
+                <br>
+                <label for="" >Nombre: </label>
+                <input type="text" placeholder="Tu nombre">
+                <br>
+                <br>
+                <label for="">Email: </label>
+                <input type="email" name="" id="" placeholder="Tu email">
+                <br>
+            </p>
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="reset" class="reset">Resetear</button>
+        </form>
+</body>
+</html>
