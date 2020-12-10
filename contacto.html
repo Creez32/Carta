@@ -15,7 +15,7 @@
             <label for="Lugares">¿De donde sos?</label>
             <br>
             <br>
-            <select name="Lugares" id="">
+            <select name="Lugares" id="" >
                 <option value="">Selecciona una opción</option>               
                 <option value="arg">Buenos Aires</option>
                 <option value="cl">Mendoza</option>
@@ -27,11 +27,11 @@
                 <label for="iluminación">¿Que te parecio la iluminación del ambiente?</label>
                 <br>
                 <br>
-                <input type="checkbox" name="iluminación" id="" value="good">Muy acorde
+                <input type="radio" name="iluminación" id="" value="good">Muy acorde
                 <br>
-                <input type="checkbox" name="iluminación" id="" value="meh">Buena, pero podria mejorar
+                <input type="radio" name="iluminación" id="" value="meh">Buena, pero podria mejorar
                 <br>
-                <input type="checkbox" name="iluminación" id="" value="bad">Mala
+                <input type="radio" name="iluminación" id="" value="bad">Mala
                 <br>
             </p>
             <p>
@@ -55,7 +55,7 @@
                 <input type="radio" name="Recomendacion" id="No"value="No">No
                 <br>
             </p>
-            <p>
+            <p class=Textarea>
                 <label for="">¿Por que?</label>
                 <br>
                 <br>
@@ -66,12 +66,12 @@
                 <label for="">Dejanos tus datos y nos pondremos en contacto con vos</label>
                 <br>
                 <br>
-                <label for="" >Nombre: </label>
-                <input type="text" placeholder="Tu nombre">
+                <label for="nombre" >Nombre: </label>
+                <input type="text" id="nombre" placeholder="Tu nombre">
                 <br>
                 <br>
-                <label for="">Email: </label>
-                <input type="email" name="" id="" placeholder="Tu email">
+                <label for="email">Email: </label>
+                <input type="email" name="" id="email" placeholder="Tu email">
                 <br>
             </p>
             <button type="submit" class="enviar">Enviar</button>

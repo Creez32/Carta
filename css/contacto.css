@@ -36,10 +36,14 @@ form button{
 form button.enviar{
     background-color: #F0C223;
     color:white;
-    border-color: #F0C223;
+    border: none;
 }
 form button.reset{
     color:#F0C223;
     border-color:#F0C223;
     background-color: white
+}
+
+textarea{
+    resize: none;
 }
